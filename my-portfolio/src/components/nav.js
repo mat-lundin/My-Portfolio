@@ -1,4 +1,7 @@
-import React from 'react';
+import React, {useState} from 'react';
+
+// use a state var to keep track of active tab?
+const [activeTab, setActiveTab] = useState('home');
 
 const navbar = () => {
 
