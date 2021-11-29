@@ -8,9 +8,9 @@ import About from './components/about'
 function App() {
   return (
     <div className="">
-      <header className="">
+      {/* <header className=""> */}
       <Header />
-      </header>
+      {/* </header> */}
       <About />
       <footer>
       <Footer />

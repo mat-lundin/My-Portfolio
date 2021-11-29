@@ -14,15 +14,16 @@ const navbar = () => {
         <li class="active"
         // onClick={()=> MediaStreamAudioDestinationNode('about')}
         >
-            <a href="">About</a></li>
+            <a>About</a></li>
         <li
         // onClick={()=> MediaStreamAudioDestinationNode('projects')}
+        // onclick={()=> this.class='active'}
         >
-            <a href="">Projects</a></li>
+            <a>Projects</a></li>
         <li
         // onClick={()=> MediaStreamAudioDestinationNode('contact')}
         >
-            <a href="">Contact</a></li>
+            <a>Contact</a></li>
       </ul>
     </div>
   </nav>
