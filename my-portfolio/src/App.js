@@ -2,6 +2,8 @@ import logo from './logo.svg';
 import './App.css';
 import React from 'react'
 import Header from './components/header'
+import Footer from './components/footer'
+import About from './components/about'
 
 function App() {
   return (
@@ -9,6 +11,10 @@ function App() {
       <header className="">
       <Header />
       </header>
+      <About />
+      <footer>
+      <Footer />
+      </footer>
     </div>
   );
 }

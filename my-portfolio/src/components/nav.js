@@ -1,7 +1,7 @@
-import React, {useState} from 'react';
+import React from 'react';
 
 // use a state var to keep track of active tab?
-const [activeTab, setActiveTab] = useState('home');
+// const [activeTab, setActiveTab] = useState('home');
 
 const navbar = () => {
 
@@ -11,7 +11,7 @@ const navbar = () => {
     <div class="nav-wrapper">
       <a href="#" class="left">Mat Lundin</a>
       <ul id="nav-mobile" class="right ">
-        <li class="active"><a href="">Home</a></li>
+        <li class="active"><a href="">About</a></li>
         <li><a href="">Projects</a></li>
         <li><a href="">Contact</a></li>
       </ul>
