@@ -9,7 +9,7 @@ const navbar = () => {
         
     <nav>
     <div class="nav-wrapper">
-      <a href="#" class="left">Mat Lundin</a>
+      <a href="#" class="brand-logo left">Mat Lundin</a>
       <ul id="nav-mobile" class="right ">
         <li class="active"
         // onClick={()=> MediaStreamAudioDestinationNode('about')}

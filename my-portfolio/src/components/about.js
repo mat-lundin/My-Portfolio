@@ -1,6 +1,8 @@
 
 const about = () => {
     return (
+        <div class="container">
+            <div class="row">
         <div class="card">
     <div class="card-image waves-effect waves-block waves-light">
       {/* <img class="activator" src="images/office.jpg"></img> */}
@@ -13,6 +15,8 @@ const about = () => {
       <span class="card-title grey-text text-darken-4">Mat Lundin<i class="material-icons right">close</i></span>
       <p>Mat is a new graduate of the Coding Bootcamp at the University of Texas, Austin. He is focused mainly on backend development. Before attending the Coding Bootcamp, Mat worked in the tech industry for 10 years, learning basic programming and SQL queries.</p>
     </div>
+  </div>
+  </div>
   </div>
            
     )
