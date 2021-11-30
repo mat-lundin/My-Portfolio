@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import './App.css';
 import React from 'react'
 import Header from './components/header'
@@ -7,7 +6,7 @@ import About from './components/about'
 
 function App() {
   return (
-    <div className="">
+    <div>
       {/* <header className=""> */}
       <Header />
       {/* </header> */}
