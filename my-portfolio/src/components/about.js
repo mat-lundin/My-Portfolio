@@ -14,7 +14,7 @@ const about = () => {
     </div>
     <div className="card-reveal">
       <span className="card-title grey-text text-darken-4">Mat Lundin<i className="material-icons right">cancel</i></span>
-      <p>Mat is a new graduate of the Coding Bootcamp at the University of Texas, Austin. He is focused mainly on backend development. Before attending the Coding Bootcamp, Mat worked in the tech industry for 10 years, learning basic programming and SQL queries.</p>
+      <p>Mat is a recent graduate of the Coding Bootcamp at the University of Texas, Austin. He is focused mainly on backend development. Before attending the Coding Bootcamp, Mat worked in the tech industry for 10 years, performing software implementations, code patches, bug fixes, and SQL queries.</p>
     </div>
   </div>
   </div>
