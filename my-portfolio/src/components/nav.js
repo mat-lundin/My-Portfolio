@@ -1,10 +1,6 @@
-// import React, {useState} from 'react';
 import React from 'react'
-// use a state var to keep track of active tab?
 
-
-const navbar = () => {
-// const [activeTab, setActiveTab] = useState('home');
+function navbar ({ activeTab, setActiveTab }) {
     return (
         
     <nav>
@@ -12,19 +8,25 @@ const navbar = () => {
       <a href="#" class="brand-logo left">Mat Lundin</a>
       <ul id="nav-mobile" class="right ">
         <li class="active"
-        // onClick={()=> setActiveTab('about')}
+        onClick={()=> setActiveTab('about')}
         // will need a separate function for handling active tab classes
         // onclick={()=> this.class='active'}
         >
             <a>About</a></li>
         <li
-        // onClick={()=> setActiveTab('projects')}
+        onClick={()=> setActiveTab('portfolio')}
+        // will need a separate function for handling active tab classes
+        // onclick={()=> this.className='active'}
+        >
+            <a>Portfolio</a></li>
+        <li
+        onClick={()=> setActiveTab('resume')}
         // will need a separate function for handling active tab classes
         // onclick={()=> this.class='active'}
         >
-            <a>Projects</a></li>
-        <li
-        // onClick={()=> setActiveTab('contact')}
+            <a>Resume</a></li>
+            <li
+        onClick={()=> setActiveTab('contact')}
         // will need a separate function for handling active tab classes
         // onclick={()=> this.class='active'}
         >
@@ -32,9 +34,8 @@ const navbar = () => {
       </ul>
     </div>
   </nav>
-  
     )
+};
 
-}
 
-export default navbar
+export default navbar;
