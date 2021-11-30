@@ -1,9 +1,9 @@
 import React from 'react';
 
-const portfolio = function(){
+const contact = function(){
     return (
-        <h1>This is the portfolio page</h1>
+        <h1>This is the contact page</h1>
     )
 };
 
-export default portfolio;
+export default contact;
