@@ -2,25 +2,18 @@ import React, {useState} from 'react';
 import About from './about';
 import Contact from './contact';
 import Portfolio from './portfolio';
-import Resume from './resume'
+import Resume from './resume';
 
-const curPage = function(activeTab){
-
-    if (activeTab === 'about'){
-        return (
-            <div>
-        <About />
-        </div>
-        )
-    } else if (activeTab === 'contact'){
+const curPage = function(state){
+    if (state.activeTab === 'about'){
+        return <About />
+    } else if (state.activeTab === 'contact'){
         return <Contact />
-    } else if (activeTab === 'portfolio'){
+    } else if (state.activeTab === 'portfolio'){
         return <Portfolio />
     } else {
         return <Resume />
     }
+};
 
-
-}
-
-export default curPage
+export default curPage;

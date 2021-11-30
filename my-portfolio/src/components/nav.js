@@ -4,10 +4,10 @@ function navbar ({ activeTab, setActiveTab }) {
     return (
         
     <nav>
-    <div class="nav-wrapper">
-      <a href="#" class="brand-logo left">Mat Lundin</a>
-      <ul id="nav-mobile" class="right ">
-        <li class="active"
+    <div className="nav-wrapper">
+      <a href="#" className="brand-logo left">Mat Lundin</a>
+      <ul id="nav-mobile" className="right ">
+        <li className="active"
         onClick={()=> setActiveTab('about')}
         // will need a separate function for handling active tab classes
         // onclick={()=> this.class='active'}
