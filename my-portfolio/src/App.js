@@ -2,7 +2,7 @@ import './App.css';
 import React, {useState} from 'react';
 import Header from './components/header';
 import Footer from './components/footer';
-// import About from './components/about'
+
 import CurPage from './components/curPage';
 
 function App() {

@@ -1,4 +1,5 @@
 import React from 'react';
+import portfolioData from '../portfolio.json';
 
 const portfolio = function(){
     return (
