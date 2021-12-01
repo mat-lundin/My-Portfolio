@@ -6,7 +6,7 @@ const about = () => {
                 <div className="col s5">
         <div className="card">
     <div className="card-image waves-effect waves-block waves-light">
-      <img class="activator" src="/headshot.jpeg"></img>
+      <img class="activator" src="../../public/headshot.jpeg"></img>
     </div>
     <div className="card-content">
       <span className="card-title activator grey-text text-darken-4">Expand to read about Mat!<i class="material-icons right">more_vert</i></span>
