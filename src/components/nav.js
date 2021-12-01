@@ -6,7 +6,7 @@ function navbar ({ activeTab, setActiveTab }) {
     <nav>
     <div className="nav-wrapper">
       <a href="" className="brand-logo left"
-      onclick={()=> setActiveTab('about')}
+      onClick={()=> setActiveTab('about')}
       >Mat Lundin</a>
       <ul id="nav-mobile" className="right ">
         <li id="about" className="active"
