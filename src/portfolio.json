@@ -2,7 +2,8 @@
     "name":"Pipe Dreams!",
     "description": "A full-stack fuel finding application with authentication, an interactive map, and a message board built in.",
     "url": "https://pipe-dreams.herokuapp.com/",
-    "repoUrl": "https://github.com/cole-cochran/Pipe-Dreams"
+    "repoUrl": "https://github.com/cole-cochran/Pipe-Dreams",
+    "image": "/images/pipedreamsafterloginhomepage.png"
 
 },
 
@@ -10,20 +11,22 @@
     "name":"TravelBuddy",
     "description": "A travel application which shows weather and activities in your selected city.",
     "url": "https://nicoledodge.github.io/TravelBuddyApp/",
-    "repoUrl": "https://github.com/nicoledodge/TravelBuddyApp"
+    "repoUrl": "https://github.com/nicoledodge/TravelBuddyApp",
+    "image": "/images/TravelBuddy.gif"
 
 },
 {
     "name":"Random Password Generator",
     "description": "Select which character types to include and the length of your password, and this application will generate a random password. Use the Copy button to automatically copy the password to your clipboard!",
     "url": "https://mat-lundin.github.io/Homework-3---Random-Password-Generator-MLL/",
-    "repoUrl": "https://github.com/mat-lundin/Homework-3---Random-Password-Generator-MLL"
-
+    "repoUrl": "https://github.com/mat-lundin/Homework-3---Random-Password-Generator-MLL",
+    "image": ""
 },
 {
     "name":"README Generator",
     "description": "This tool, which runs in the terminal, prompts the user for information and generates a crisp README.md file for any project!",
     "url": "",
-    "repoUrl": "https://github.com/mat-lundin/Homework-9-Readme-Generator"
+    "repoUrl": "https://github.com/mat-lundin/Homework-9-Readme-Generator",
+    "image": ""
 
 }]

@@ -9,7 +9,7 @@ const portfolio = function(){
     <div key= {project.name} className="col s4 m7">
       <div className="card">
         <div className="card-image">
-          <img src="images/sample-1.jpg"></img>
+          <img src={project.image}></img>
           <span className="card-title">{project.name}</span>
         </div>
         <div className="card-content">

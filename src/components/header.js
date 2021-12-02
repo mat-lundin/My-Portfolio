@@ -2,7 +2,7 @@ import Nav from './nav'
 
 const header = ({activeTab, setActiveTab}) => {
     return(
-        <div class="jumbotron">
+        <div className="jumbotron">
         <header>
             <Nav activeTab={activeTab} setActiveTab={setActiveTab} />
         </header>

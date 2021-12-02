@@ -9,7 +9,7 @@ const about = () => {
       <img className="activator" src="/images/headshot.jpeg"></img>
     </div>
     <div className="card-content">
-      <span className="card-title activator grey-text text-darken-4">Expand to read about Mat!<i class="material-icons right">more_vert</i></span>
+      <span className="card-title activator grey-text text-darken-4">Expand to read about Mat!<i className="material-icons right">more_vert</i></span>
       {/* <p><a href="#">This is a link</a></p> */}
     </div>
     <div className="card-reveal">
