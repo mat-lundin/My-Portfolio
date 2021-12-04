@@ -9,7 +9,7 @@ const portfolio = function () {
         <div key={project.name} className="col s7 m6 l3">
           <div className="card" style={{ width: '20rem' }}>
             <div className="card-image">
-              <img className="responsive-img" src={process.env.PUBLIC_URL + project.image}></img>
+              <img className="responsive-img" src={process.env.PUBLIC_URL + project.image} alt={project.name}></img>
               <span className="card-title" style={{backgroundColor: "pink", opacity: 0.8, height: "4rem"}}>{project.name}</span>
             </div>
             <div className="card-content">

@@ -4,7 +4,10 @@ import React from 'react';
 
 function resume(){
     return (
-        <h1>This is the resume page</h1>
+        <>
+        <h1>View Mat's resume!</h1>
+        <iframe title="Mat's Resume" src="https://docs.google.com/document/d/16bOQFtUo16ctLdUoqg6EknCXQB88aPyrc2iiiXjkTmk/edit?usp=sharing" style={{height:'40rem', width:'100%'}}></iframe>
+        </>
     )
 };
 
