@@ -9,7 +9,7 @@ const about = () => {
       <img className="activator responsive-img" alt="Profile pic" src={process.env.PUBLIC_URL + "/images/headshot.jpeg"}></img>
     </div>
     <div className="card-content">
-      <span className="card-title activator grey-text text-darken-4">Welcome to my site! Expand to read more about me and be sure to check out the Portfolio tab for cool projects I've worked on!<i className="material-icons right">more_vert</i></span>
+      <span className="card-title activator grey-text text-darken-4">Welcome to my site! Expand to read more about me and be sure to check out my <a class="waves-effect waves-light btn-small"><i class="material-icons left">web</i>Portfolio</a> for cool projects I've worked on!<i className="material-icons right">more_vert</i></span>
       {/* <p><a href="#">This is a link</a></p> */}
     </div>
     <div className="card-reveal">

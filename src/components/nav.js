@@ -12,19 +12,19 @@ function navbar ({ activeTab, setActiveTab }) {
         <li id="about" className="active"
         onClick={()=> clickHandler('about', setActiveTab)}
         >
-            <a>About</a></li>
+            <a><i class="material-icons left">person</i>About</a></li>
         <li id="portfolio"
         onClick={()=> clickHandler('portfolio', setActiveTab)}
         >
-            <a>Portfolio</a></li>
+            <a>Portfolio<i class="material-icons left">web</i></a></li>
         <li id="resume"
         onClick={()=> clickHandler('resume', setActiveTab)}
         >
-            <a>Resume</a></li>
+            <a>Resume<i class="material-icons left">subject</i></a></li>
         <li id="contact"
         onClick={()=> clickHandler('contact', setActiveTab)}
         >
-            <a>Contact</a></li>
+            <a>Contact<i class="material-icons left">email</i></a></li>
       </ul>
     </div>
   </nav>
