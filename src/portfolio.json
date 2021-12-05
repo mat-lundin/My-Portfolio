@@ -16,7 +16,7 @@
 
 },
 {
-    "name":"Random Password Generator",
+    "name":"Password Generator",
     "description": "Select which character types to include and the length of your password, and this application will generate a random password. Use the Copy button to automatically copy the password to your clipboard!",
     "url": "https://mat-lundin.github.io/Homework-3---Random-Password-Generator-MLL/",
     "repoUrl": "https://github.com/mat-lundin/Homework-3---Random-Password-Generator-MLL",

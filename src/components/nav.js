@@ -7,7 +7,7 @@ function navbar ({ activeTab, setActiveTab }) {
     <div className="nav-wrapper">
       <a href="" className="brand-logo left"
       onClick={()=> setActiveTab('about')}
-      >Mat Lundin</a>
+      >Mat Lundin - Web Developer</a>
       <ul id="nav-mobile" className="right ">
         <li id="about" className="active"
         onClick={()=> clickHandler('about', setActiveTab)}
