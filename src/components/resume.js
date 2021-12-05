@@ -5,8 +5,7 @@ import React from 'react';
 function resume(){
     return (
         <>
-        <h2>Resume</h2>
-        <iframe title="Mat's Resume" src="https://docs.google.com/document/d/16bOQFtUo16ctLdUoqg6EknCXQB88aPyrc2iiiXjkTmk/edit?usp=sharing" style={{height:'40rem', width:'100%'}}></iframe>
+        <iframe title="Mat's Resume" src="https://docs.google.com/document/d/16bOQFtUo16ctLdUoqg6EknCXQB88aPyrc2iiiXjkTmk/edit?usp=sharing" style={{height:'40rem', width:'100%', border: 'none'}}></iframe>
         </>
     )
 };

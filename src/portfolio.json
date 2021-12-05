@@ -1,6 +1,6 @@
 [{
     "name":"Pipe Dreams!",
-    "description": "A full-stack fuel finding application with authentication, an interactive map, and a message board built in.",
+    "description": "Sign up or log in to this full stack application to search for fuel using the interactive map! Or check in on what the community is saying about fuel prices with the live message board!",
     "url": "https://pipe-dreams.herokuapp.com/",
     "repoUrl": "https://github.com/cole-cochran/Pipe-Dreams",
     "image": "/images/pipedreamsafterloginhomepage.png"
@@ -9,7 +9,7 @@
 
 {
     "name":"TravelBuddy",
-    "description": "A travel application which shows weather and activities in your selected city.",
+    "description": "Search for a city to travel to and enter the dates of your trip to see live weather and activities for your trip! Previous searches are saved for future access!",
     "url": "https://nicoledodge.github.io/TravelBuddyApp/",
     "repoUrl": "https://github.com/nicoledodge/TravelBuddyApp",
     "image": "/images/TravelBuddy.gif"
@@ -24,7 +24,7 @@
 },
 {
     "name":"README Generator",
-    "description": "This tool, which runs in the terminal, prompts the user for information and generates a crisp README.md file for any project!",
+    "description": "Hey developers! Sick of writing README files in Markdown? Use this tool to generate README files by answering simple prompts for any repository you have! The application runs in the terminal and can be easily customized using Javascript  and Inquier.js to create your own unique template!",
     "url": "",
     "repoUrl": "https://github.com/mat-lundin/Homework-9-Readme-Generator",
     "image": "/images/readmeGen.png"
