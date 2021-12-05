@@ -12,7 +12,7 @@ function App() {
       {/* <header className=""> */}
       <Header activeTab={activeTab} setActiveTab={setActiveTab}/>
       {/* </header> */}
-      <CurPage activeTab={activeTab} />
+      <CurPage activeTab={activeTab} setActiveTab={setActiveTab}/>
       <footer>
       <Footer />
       </footer>
