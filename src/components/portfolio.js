@@ -16,8 +16,8 @@ const portfolio = function () {
               <p>{project.description}</p>
             </div>
             <div className="card-action">
-              {project.url && <a href={project.url}>Visit</a>}
-              <a href={project.repoUrl}>Github</a>
+              {project.url && <a href={project.url} target="_blank">Visit</a>}
+              <a href={project.repoUrl} target="_blank">Github</a>
             </div>
           </div>
         </div>
