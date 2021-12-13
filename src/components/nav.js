@@ -2,32 +2,44 @@ import React from 'react'
 
 function navbar ({ activeTab, setActiveTab }) {
     return (
-        
-    <nav>
-    <div className="nav-wrapper">
-      <a href="" className="brand-logo left"
+        <>
+    <nav className="nav-wrapper">
+    {/* <div className="container"> */}
+      <a href="" className="brand-logo left" 
       onClick={()=> setActiveTab('about')}
-      >Mat</a>
-      <ul id="nav-mobile" className="right ">
+      >Mat Lundin
+          {/* <img src={process.env.PUBLIC_URL + "/images/header.png"} style={{height: '60px'}}></img> */}
+          </a>
+          <a data-target="mobile" class="right sidenav-trigger"><i className="material-icons">menu</i></a>
+      <ul id="nav-mobile" className="right hide-on-med-and-down">
         <li id="about" className="active"
         onClick={()=> clickHandler('about', setActiveTab)}
         >
-            <a><i class="material-icons left">person</i>About</a></li>
+            <a><i className="material-icons left">person</i>About</a></li>
         <li id="portfolio"
         onClick={()=> clickHandler('portfolio', setActiveTab)}
         >
-            <a>Portfolio<i class="material-icons left">web</i></a></li>
+            <a>Portfolio<i className="material-icons left">web</i></a></li>
         <li id="resume"
         onClick={()=> clickHandler('resume', setActiveTab)}
         >
-            <a>Resume<i class="material-icons left">subject</i></a></li>
+            <a>Resume<i className="material-icons left">subject</i></a></li>
         <li id="contact"
         onClick={()=> clickHandler('contact', setActiveTab)}
         >
-            <a>Contact<i class="material-icons left">email</i></a></li>
+            <a>Contact<i className="material-icons left">email</i></a></li>
       </ul>
-    </div>
+      
+  
+  <ul className="sidenav" id="mobile" styles={{marginLeft: '10px'}}>
+      <li id="about-mobile" onClick={()=> clickHandler('about', setActiveTab)}><a>About</a></li>
+      <li id="portfolio-mobile" onClick={()=> clickHandler('portfolio', setActiveTab)}><a>Portfolio</a></li>
+      <li id="resume-mobile" onClick={()=> clickHandler('resume', setActiveTab)}><a>Resume</a></li>
+      <li id="contact-mobile" onClick={()=> clickHandler('contact', setActiveTab)}><a>Contact</a></li>
+  </ul>
+  {/* </div> */}
   </nav>
+  </>
     )
 };
 
@@ -46,5 +58,6 @@ function updateClass(button){
     
     listEl.className = 'active'
 }
+
 
 export default navbar;
