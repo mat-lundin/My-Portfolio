@@ -4,13 +4,13 @@ const about = ({setActiveTab}) => {
     return (
         <div className="container">
             <div className="row">
-                <div className="col s5 offset-s2">
-        <div className="card large">
+                <div className="col s7 offset-s2">
+        <div className="card jumbo z-depth-5">
     <div className="card-image waves-effect waves-block waves-light">
-      <img className="activator responsive-img" alt="Profile pic" src={process.env.PUBLIC_URL + "/images/headshot.jpeg"}></img>
+      <img className="activator responsive-img " alt="Profile pic" src={process.env.PUBLIC_URL + "/images/headshot.jpeg"}></img>
     </div>
     <div className="card-content">
-      <span className="card-title activator grey-text text-darken-4">Welcome to my site! Expand to read more about me and be sure to check out my <a class="waves-effect waves-light btn-small"
+      <span className="card-title activator grey-text text-darken-4">Welcome to my site! Expand to read more and check out my <a className="waves-effect waves-light btn-small"
       onClick={()=> clickHandler('portfolio', setActiveTab)}>
       <i class="material-icons left">web</i>Portfolio</a> for cool projects I've worked on!<i className="material-icons right">more_vert</i></span>
       {/* <p><a href="#">This is a link</a></p> */}
