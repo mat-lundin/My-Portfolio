@@ -31,11 +31,11 @@ function navbar ({ activeTab, setActiveTab }) {
       </ul>
       
   
-  <ul className="sidenav" id="mobile" styles={{marginLeft: '10px'}}>
-      <li id="about-mobile" onClick={()=> clickHandler('about', setActiveTab)}><a>About</a></li>
-      <li id="portfolio-mobile" onClick={()=> clickHandler('portfolio', setActiveTab)}><a>Portfolio</a></li>
-      <li id="resume-mobile" onClick={()=> clickHandler('resume', setActiveTab)}><a>Resume</a></li>
-      <li id="contact-mobile" onClick={()=> clickHandler('contact', setActiveTab)}><a>Contact</a></li>
+  <ul className="sidenav sidenav-close" id="mobile" styles={{marginLeft: '10px'}}>
+      <li id="about-mobile" onClick={()=> clickHandler('about', setActiveTab)}><a><i className="material-icons left">person</i>About</a></li>
+      <li id="portfolio-mobile" onClick={()=> clickHandler('portfolio', setActiveTab)}><a><i className="material-icons left">web</i>Portfolio</a></li>
+      <li id="resume-mobile" onClick={()=> clickHandler('resume', setActiveTab)}><a><i className="material-icons left">subject</i>Resume</a></li>
+      <li id="contact-mobile" onClick={()=> clickHandler('contact', setActiveTab)}><a><i className="material-icons left">email</i>Contact</a></li>
   </ul>
   {/* </div> */}
   </nav>
