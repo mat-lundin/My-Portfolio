@@ -32,10 +32,10 @@ function navbar ({ activeTab, setActiveTab }) {
       
   
   <ul className="sidenav sidenav-close" id="mobile" styles={{marginLeft: '10px'}}>
-      <li id="about-mobile" onClick={()=> clickHandler('about', setActiveTab)}><a><i className="material-icons left">person</i>About</a></li>
-      <li id="portfolio-mobile" onClick={()=> clickHandler('portfolio', setActiveTab)}><a><i className="material-icons left">web</i>Portfolio</a></li>
-      <li id="resume-mobile" onClick={()=> clickHandler('resume', setActiveTab)}><a><i className="material-icons left">subject</i>Resume</a></li>
-      <li id="contact-mobile" onClick={()=> clickHandler('contact', setActiveTab)}><a><i className="material-icons left">email</i>Contact</a></li>
+      <li id="about-mobile" onClick={()=> clickHandler('about', setActiveTab)}><a className="blue-text"><i className="material-icons left blue-text">person</i>About</a></li>
+      <li id="portfolio-mobile" onClick={()=> clickHandler('portfolio', setActiveTab)}><a className="blue-text"><i className="material-icons left blue-text">web</i>Portfolio</a></li>
+      <li id="resume-mobile" onClick={()=> clickHandler('resume', setActiveTab)}><a className="blue-text"><i className="material-icons left blue-text">subject</i>Resume</a></li>
+      <li id="contact-mobile" onClick={()=> clickHandler('contact', setActiveTab)}><a className="blue-text"><i className="material-icons left blue-text">email</i>Contact</a></li>
   </ul>
   {/* </div> */}
   </nav>
