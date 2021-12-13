@@ -4,10 +4,10 @@ const about = ({setActiveTab}) => {
     return (
         <div className="container">
             <div className="row">
-                <div className="col s7 offset-s2">
-        <div className="card jumbo z-depth-5">
+                <div className="col s7 m7 l5 offset-s2">
+        <div className="card large z-depth-5">
     <div className="card-image waves-effect waves-block waves-light">
-      <img className="activator responsive-img " alt="Profile pic" src={process.env.PUBLIC_URL + "/images/headshot.jpeg"}></img>
+      <img className="activator responsive-img" alt="Profile pic" src={process.env.PUBLIC_URL + "/images/headshot.jpeg"}></img>
     </div>
     <div className="card-content">
       <span className="card-title activator grey-text text-darken-4">Welcome to my site! Expand to read more and check out my <a className="waves-effect waves-light btn-small"

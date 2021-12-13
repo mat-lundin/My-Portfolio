@@ -27,6 +27,11 @@ const contact = function () {
                     <a class="waves-effect waves-light btn-large"><i class="material-icons left">email</i>Submit</a>
                 </form>
             </div>
+            <br></br>
+            <br></br>
+            <br></br>
+            <br></br>
+            <br></br>
         </>
     )
 };
