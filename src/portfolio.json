@@ -1,4 +1,12 @@
 [{
+    "name":"Sheltr",
+    "description": "A mobile first MERN app for finding your next rescue dog!",
+    "url": "https://sheltr-app.herokuapp.com/",
+    "repoUrl": "https://github.com/echo1826/sheltr",
+    "image": "/images/sheltr.png"
+
+},
+{
     "name":"Pipe Dreams!",
     "description": "Sign up or log in to this full stack application to search for fuel using the interactive map! Or check in on what the community is saying about fuel prices with the live message board!",
     "url": "https://pipe-dreams.herokuapp.com/",
@@ -6,7 +14,6 @@
     "image": "/images/pipedreamsafterloginhomepage.png"
 
 },
-
 {
     "name":"TravelBuddy",
     "description": "Search for a city to travel to and enter the dates of your trip to see live weather and activities for your trip! Previous searches are saved for future access!",
