@@ -5,7 +5,10 @@ import React from 'react';
 function resume(){
     return (
         <>
-        <iframe title="Mat's Resume" src="https://docs.google.com/document/d/16bOQFtUo16ctLdUoqg6EknCXQB88aPyrc2iiiXjkTmk/edit?usp=sharing" style={{height:'40rem', width:'100%', border: 'none'}}></iframe>
+        {/* <iframe title="Mat's Resume" src="https://docs.google.com/document/d/16bOQFtUo16ctLdUoqg6EknCXQB88aPyrc2iiiXjkTmk/view?usp=sharing" style={{height:'40rem', width:'100%', border: 'none'}}></iframe> */}
+        {/* <embed src={process.env.PUBLIC_URL+"/resume/Mathew Lundin Resume.pdf"} width="500" height="375" 
+ type="application/pdf"> </embed> */}
+ <object data={process.env.PUBLIC_URL+"/resume/Mathew Lundin Resume.pdf"} style={{height:'40rem', width:'100%'}}></object>
         </>
     )
 };
