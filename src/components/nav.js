@@ -4,7 +4,6 @@ function navbar ({ activeTab, setActiveTab }) {
     return (
         <>
     <nav className="nav-wrapper orange">
-    <div className="container">
       <a href="" className="brand-logo left" 
       onClick={()=> setActiveTab('about')}
       >Mat Lundin
@@ -37,7 +36,6 @@ function navbar ({ activeTab, setActiveTab }) {
       <li id="resume-mobile" onClick={()=> clickHandler('resume', setActiveTab)}><a className="blue-text"><i className="material-icons left blue-text">subject</i>Resume</a></li>
       <li id="contact-mobile" onClick={()=> clickHandler('contact', setActiveTab)}><a className="blue-text"><i className="material-icons left blue-text">email</i>Contact</a></li>
   </ul>
-  </div>
   </nav>
   </>
     )

@@ -12,7 +12,7 @@ const about = ({setActiveTab}) => {
     <div className="card-content">
       <span className="card-title activator grey-text text-darken-4">Welcome to my site! Expand to read more and check out my <a className="waves-effect waves-light btn-small"
       onClick={()=> clickHandler('portfolio', setActiveTab)}>
-      <i class="material-icons left">web</i>Portfolio</a> for cool projects I've worked on!<i className="material-icons right">more_vert</i></span>
+      <i className="material-icons left">web</i>Portfolio</a> for cool projects I've worked on!<i className="material-icons right">more_vert</i></span>
       {/* <p><a href="#">This is a link</a></p> */}
     </div>
     <div className="card-reveal">
@@ -20,19 +20,19 @@ const about = ({setActiveTab}) => {
       <p>After 10 years in the tech industry, doing implementations, code patches, bug fixes, application support, and a fair amount of SQL, I just graduated from the Coding Bootcamp at the University of Texas, Austin and I'm excited to code!</p>
       <ul>
         <li>
-        <a class="waves-effect waves-light btn-small"
+        <a className="waves-effect waves-light btn-small"
       onClick={()=> clickHandler('portfolio', setActiveTab)}>
-      <i class="material-icons left">web</i>Portfolio</a> 
+      <i className="material-icons left">web</i>Portfolio</a> 
         </li>
         <li>
-        <a class="waves-effect waves-light btn-small"
+        <a className="waves-effect waves-light btn-small"
       onClick={()=> clickHandler('resume', setActiveTab)}>
-      <i class="material-icons left">subject</i>Resume</a> 
+      <i className="material-icons left">subject</i>Resume</a> 
         </li>
         <li>
-        <a class="waves-effect waves-light btn-small"
+        <a className="waves-effect waves-light btn-small"
       onClick={()=> clickHandler('contact', setActiveTab)}>
-      <i class="material-icons left">email</i>Contact</a> 
+      <i className="material-icons left">email</i>Contact</a> 
         </li>
       </ul>
       {/* <img src="/headshot.jpeg"></img> */}
