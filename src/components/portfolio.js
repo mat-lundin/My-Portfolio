@@ -5,7 +5,7 @@ const portfolio = function () {
   return (
     <div className="container">
     <div className="row">
-    <div key={portfolioData[0].name} className="col s7 m6 l12 offset-4">
+    <div key={portfolioData[0].name} className="col s7 m6 l12">
           <div className="card large hoverable" style={{ width: '20rem' }}>
             <div className="card-image">
               <img className="responsive-img" src={process.env.PUBLIC_URL + portfolioData[0].image} alt={portfolioData[0].name}></img>
@@ -26,10 +26,9 @@ const portfolio = function () {
     <div className="row">
       <br/>
    {portfolioData.map((project) => {
-    //  always keep the most important project at [0] in portfolio.json
      if (project !== portfolioData[0])
     return (
-        <div key={project.name} className="col s7 m4 l3">
+        <div key={project.name} className="col s7 m4 l4">
           <div className="card medium hoverable" style={{ width: '20rem' }}>
             <div className="card-image">
               <img className="responsive-img" src={process.env.PUBLIC_URL + project.image} alt={project.name}></img>
