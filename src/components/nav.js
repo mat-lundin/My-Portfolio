@@ -9,7 +9,7 @@ function navbar ({ activeTab, setActiveTab }) {
       >Mat Lundin
           {/* <img src={process.env.PUBLIC_URL + "/images/header.png"} style={{height: '60px'}}></img> */}
           </a>
-          <a href="#" data-target="mobile" class="right sidenav-trigger"><i className="material-icons">menu</i></a>
+          <a href="#" data-target="mobile" className="right sidenav-trigger"><i className="material-icons">menu</i></a>
       <ul id="nav-mobile" className="right hide-on-med-and-down">
         <li id="about" className="active"
         onClick={()=> clickHandler('about', setActiveTab)}

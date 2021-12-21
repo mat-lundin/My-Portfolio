@@ -24,7 +24,7 @@ const contact = function () {
                     <label for="icon_prefix">Message</label>
                     </div>
                     </div>
-                    <a class="waves-effect waves-light btn-large"><i class="material-icons left">email</i>Submit</a>
+                    <a className="waves-effect waves-light btn-large"><i className="material-icons left">email</i>Submit</a>
                 </form>
             </div>
             <br></br>
