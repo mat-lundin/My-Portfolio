@@ -23,10 +23,6 @@ function navbar ({ activeTab, setActiveTab }) {
         onClick={()=> clickHandler('resume', setActiveTab)}
         >
             <a>Resume<i className="material-icons left">subject</i></a></li>
-        <li id="contact"
-        onClick={()=> clickHandler('contact', setActiveTab)}
-        >
-            <a>Contact<i className="material-icons left">email</i></a></li>
       </ul>
       
   
@@ -34,7 +30,6 @@ function navbar ({ activeTab, setActiveTab }) {
       <li id="about-mobile" onClick={()=> clickHandler('about', setActiveTab)}><a className="blue-text"><i className="material-icons left blue-text">person</i>About</a></li>
       <li id="portfolio-mobile" onClick={()=> clickHandler('portfolio', setActiveTab)}><a className="blue-text"><i className="material-icons left blue-text">web</i>Portfolio</a></li>
       <li id="resume-mobile" onClick={()=> clickHandler('resume', setActiveTab)}><a className="blue-text"><i className="material-icons left blue-text">subject</i>Resume</a></li>
-      <li id="contact-mobile" onClick={()=> clickHandler('contact', setActiveTab)}><a className="blue-text"><i className="material-icons left blue-text">email</i>Contact</a></li>
   </ul>
   </nav>
   </>
