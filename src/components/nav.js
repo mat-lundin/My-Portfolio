@@ -18,11 +18,15 @@ function navbar ({ activeTab, setActiveTab }) {
         <li id="portfolio"
         onClick={()=> clickHandler('portfolio', setActiveTab)}
         >
-            <a>Portfolio<i className="material-icons left">web</i></a></li>
+            <a>Coding<i className="material-icons left">web</i></a></li>
         <li id="resume"
         onClick={()=> clickHandler('resume', setActiveTab)}
         >
             <a>Resume<i className="material-icons left">subject</i></a></li>
+            <li id="music"
+        onClick={()=> clickHandler('music', setActiveTab)}
+        >
+            <a>Music<i className="material-icons left">audiotrack</i></a></li>
       </ul>
       
   
@@ -30,6 +34,7 @@ function navbar ({ activeTab, setActiveTab }) {
       <li id="about-mobile" onClick={()=> clickHandler('about', setActiveTab)}><a className="blue-text"><i className="material-icons left blue-text">person</i>About</a></li>
       <li id="portfolio-mobile" onClick={()=> clickHandler('portfolio', setActiveTab)}><a className="blue-text"><i className="material-icons left blue-text">web</i>Portfolio</a></li>
       <li id="resume-mobile" onClick={()=> clickHandler('resume', setActiveTab)}><a className="blue-text"><i className="material-icons left blue-text">subject</i>Resume</a></li>
+      <li id="resume-mobile" onClick={()=> clickHandler('music', setActiveTab)}><a className="blue-text"><i className="material-icons left blue-text">audiotrack</i>Music</a></li>
   </ul>
   </nav>
   </>
