@@ -1,5 +1,4 @@
 import React from 'react'
-// test comment
 
 const about = ({ setActiveTab }) => {
   return (
