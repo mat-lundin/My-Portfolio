@@ -27,6 +27,9 @@ function navbar ({ activeTab, setActiveTab }) {
         onClick={()=> clickHandler('music', setActiveTab)}
         >
             <a>Music<i className="material-icons left">audiotrack</i></a></li>
+            <li id="email"
+        >
+            <a href="mailto: matlundin.dev@gmail.com">Email<i className="material-icons left">email</i></a></li>
       </ul>
       
   
@@ -35,6 +38,7 @@ function navbar ({ activeTab, setActiveTab }) {
       <li id="portfolio-mobile" onClick={()=> clickHandler('portfolio', setActiveTab)}><a className="blue-text"><i className="material-icons left blue-text">web</i>Portfolio</a></li>
       <li id="resume-mobile" onClick={()=> clickHandler('resume', setActiveTab)}><a className="blue-text"><i className="material-icons left blue-text">subject</i>Resume</a></li>
       <li id="resume-mobile" onClick={()=> clickHandler('music', setActiveTab)}><a className="blue-text"><i className="material-icons left blue-text">audiotrack</i>Music</a></li>
+      <li id="resume-mobile" onClick={()=> clickHandler('resume', setActiveTab)}><a className="blue-text"><i className="material-icons left blue-text" href="mailto: matlundin.dev@gmail.com">email</i>Email</a></li>
   </ul>
   </nav>
   </>

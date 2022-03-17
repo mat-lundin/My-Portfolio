@@ -1,6 +1,6 @@
 [{
     "name":"Sheltr",
-    "description": "A mobile first MERN app for finding your next rescue dog!",
+    "description": "A mobile first swiping app for finding your next rescue pet!",
     "url": "https://sheltr-app.herokuapp.com/",
     "repoUrl": "https://github.com/echo1826/sheltr",
     "image": "/images/sheltr.png"
