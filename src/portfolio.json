@@ -10,7 +10,7 @@
     "name":"Pipe Dreams!",
     "description": "Sign up or log in to this full stack application to search for fuel using the interactive map! Or check in on what the community is saying about fuel prices with the live message board!",
     "url": "https://pipe-dreams.herokuapp.com/",
-    "repoUrl": "https://github.com/cole-cochran/Pipe-Dreams",
+    "repoUrl": "https://github.com/mat-lundin/Pipe-Dreams",
     "image": "/images/pipedreamsafterloginhomepage.png"
 
 },
