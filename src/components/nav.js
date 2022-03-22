@@ -18,13 +18,12 @@ function navbar ({ activeTab, setActiveTab }) {
         <li id="portfolio"
         onClick={()=> clickHandler('portfolio', setActiveTab)}
         >
-            <a>Portfolio<i className="material-icons left">web</i></a></li>
+            <a>Coding<i className="material-icons left">web</i></a></li>
         <li id="resume"
         onClick={()=> clickHandler('resume', setActiveTab)}
         >
             <a>Resume<i className="material-icons left">subject</i></a></li>
-            <li id="email"
-        >
+            <li id="email">
             <a href="mailto: matlundin.dev@gmail.com">Email<i className="material-icons left">email</i></a></li>
       </ul>
       
@@ -33,7 +32,7 @@ function navbar ({ activeTab, setActiveTab }) {
       <li id="about-mobile" onClick={()=> clickHandler('about', setActiveTab)}><a className="blue-text"><i className="material-icons left blue-text">person</i>About</a></li>
       <li id="portfolio-mobile" onClick={()=> clickHandler('portfolio', setActiveTab)}><a className="blue-text"><i className="material-icons left blue-text">web</i>Portfolio</a></li>
       <li id="resume-mobile" onClick={()=> clickHandler('resume', setActiveTab)}><a className="blue-text"><i className="material-icons left blue-text">subject</i>Resume</a></li>
-      <li id="resume-mobile" onClick={()=> clickHandler('resume', setActiveTab)}><a className="blue-text"><i className="material-icons left blue-text" href="mailto: matlundin.dev@gmail.com">email</i>Email</a></li>
+      <li id="resume-mobile"><a className="blue-text"><i className="material-icons left blue-text" href="mailto: matlundin.dev@gmail.com">email</i>Email</a></li>
   </ul>
   </nav>
   </>
