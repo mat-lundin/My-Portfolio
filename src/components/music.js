@@ -20,7 +20,7 @@ const music = function() {
                     <a href={project.spotUrl}>Listen on Spotify</a>
                   </div>
                   <div className="card-action">
-                    {project.url && <a href={project.url} target="_blank">Visit</a>}
+                    {project.url && <a href={project.url} target="_blank" rel="noreferrer">Visit</a>}
                   </div>
                 </div>
               </div> 

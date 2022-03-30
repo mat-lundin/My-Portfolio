@@ -1,6 +1,5 @@
 import React from 'react';
 import About from './about';
-import Contact from './contact';
 import Portfolio from './portfolio';
 import Resume from './resume';
 import Music from './music'
@@ -9,8 +8,6 @@ import Music from './music'
 const curPage = function({activeTab,setActiveTab}){
     if (activeTab === 'about'){
         return <About setActiveTab={setActiveTab}/>
-    } else if (activeTab === 'contact'){
-        return <Contact />
     } else if (activeTab === 'portfolio'){
         return <Portfolio />
     } else if (activeTab === 'music'){
