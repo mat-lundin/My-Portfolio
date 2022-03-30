@@ -7,7 +7,7 @@ const about = ({ setActiveTab }) => {
         <div className="col s7 m7 l5 offset-s2 ">
           <div className="card z-depth-5">
             <div className="card-image">
-              <img src={process.env.PUBLIC_URL + "/images/IMG_4636.jpeg"}></img>
+              <img src={process.env.PUBLIC_URL + "/images/IMG_4636.jpeg"} alt="Mat Lundin"></img>
               <span className="card-title">Mat Lundin</span>
             </div>
             <div className="card-content">
@@ -22,9 +22,9 @@ const about = ({ setActiveTab }) => {
                 onClick={() => clickHandler('resume', setActiveTab)}
               >Resume</a>
               <br className="hide-on-med-and-up"></br>
-                            <a href="https://github.com/mat-lundin" target="_blank">GitHub</a>
+                            <a href="https://github.com/mat-lundin" target="_blank" rel="noreferrer">GitHub</a>
                             <br className="hide-on-med-and-up"></br>
-                            <a href="https://www.linkedin.com/in/mathew-lundin/" target="_blank">LinkedIn</a>
+                            <a href="https://www.linkedin.com/in/mathew-lundin/" target="_blank" rel="noreferrer">LinkedIn</a>
             </div>
           </div>
         </div>

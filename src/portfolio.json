@@ -2,7 +2,7 @@
     "name":"Sheltr",
     "description": "A mobile first swiping app for finding your next rescue pet!",
     "url": "https://sheltr-app.herokuapp.com/",
-    "repoUrl": "https://github.com/echo1826/sheltr",
+    "repoUrl": "https://github.com/mat-lundin/sheltr",
     "image": "/images/sheltr.png"
 
 },
@@ -11,29 +11,29 @@
     "description": "Sign up or log in to this full stack application to search for fuel using the interactive map! Or check in on what the community is saying about fuel prices with the live message board!",
     "url": "https://pipe-dreams.herokuapp.com/",
     "repoUrl": "https://github.com/mat-lundin/Pipe-Dreams",
-    "image": "/images/pipedreamsafterloginhomepage.png"
+    "image": "/images/pipedreams.png"
 
 },
 {
     "name":"TravelBuddy",
     "description": "Search for a city to travel to and enter the dates of your trip to see live weather and activities for your trip! Previous searches are saved for future access!",
     "url": "https://nicoledodge.github.io/TravelBuddyApp/",
-    "repoUrl": "https://github.com/nicoledodge/TravelBuddyApp",
+    "repoUrl": "https://github.com/mat-lundin/TravelBuddyApp",
     "image": "/images/TravelBuddy.gif"
 
 },
 {
     "name":"Password Generator",
     "description": "Select which character types to include and the length of your password, and this application will generate a random password. Use the Copy button to automatically copy the password to your clipboard!",
-    "url": "https://mat-lundin.github.io/Homework-3---Random-Password-Generator-MLL/",
-    "repoUrl": "https://github.com/mat-lundin/Homework-3---Random-Password-Generator-MLL",
+    "url": "https://mat-lundin.github.io/Random-Password-Generator/",
+    "repoUrl": "https://github.com/mat-lundin/Random-Password-Generator",
     "image": "/images/randomPassGen.png"
 },
 {
     "name":"README Generator",
     "description": "Hey developers! Sick of writing README files in Markdown? Use this tool to generate README files by answering simple prompts for any repository you have! The application runs in the terminal and can be easily customized using Javascript  and Inquier.js to create your own unique template!",
     "url": "",
-    "repoUrl": "https://github.com/mat-lundin/Homework-9-Readme-Generator",
+    "repoUrl": "https://github.com/mat-lundin/Readme-Generator",
     "image": "/images/readmeGen.png"
 
 }]

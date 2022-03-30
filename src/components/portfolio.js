@@ -16,8 +16,8 @@ const portfolio = function () {
               <p>{portfolioData[0].description}</p>
             </div>
             <div className="card-action">
-              {portfolioData[0].url && <a href={portfolioData[0].url} target="_blank">Visit</a>}
-              <a href={portfolioData[0].repoUrl} target="_blank">Github</a>
+              {portfolioData[0].url && <a href={portfolioData[0].url} target="_blank" rel="noreferrer">Visit</a>}
+              <a href={portfolioData[0].repoUrl} target="_blank" rel="noreferrer">Github</a>
             </div>
           </div>
         </div>
@@ -27,7 +27,7 @@ const portfolio = function () {
     <div className="row">
       <br/>
    {portfolioData.map((project) => {
-     if (project !== portfolioData[0])
+     if (project !== portfolioData[0]) {
     return (
         <div key={project.name} className="col s7 m4 l4">
           <div className="card hoverable portfolio-card" style={{ width: '20rem' }}>
@@ -40,12 +40,14 @@ const portfolio = function () {
               <p>{project.description}</p>
             </div>
             <div className="card-action">
-              {project.url && <a href={project.url} target="_blank">Visit</a>}
-              <a href={project.repoUrl} target="_blank">Github</a>
+              {project.url && <a href={project.url} target="_blank" rel="noreferrer">Visit</a>}
+              <a href={project.repoUrl} target="_blank" rel="noreferrer">Github</a>
             </div>
           </div>
         </div>
-    )
+    )} else {
+      return null
+    }
     })}
     </div>
     </div>
