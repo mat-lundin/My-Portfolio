@@ -7,6 +7,14 @@
 
 },
 {
+    "name":"Spiral Stairs Official",
+    "description": "Official Website for Spiral Stairs",
+    "url": "",
+    "repoUrl": "https://github.com/chuck2076/spiral-stairs-site",
+    "image": "/images/spiralstairs.png"
+
+},
+{
     "name":"Pipe Dreams!",
     "description": "Sign up or log in to this full stack application to search for fuel using the interactive map! Or check in on what the community is saying about fuel prices with the live message board!",
     "url": "https://pipe-dreams.herokuapp.com/",

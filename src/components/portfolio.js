@@ -4,15 +4,15 @@ import portfolioData from '../portfolio.json';
 const portfolio = function () {
   return (
     <div className="container">
-    <div className="row">
-    <div key={portfolioData[0].name} className="col s7 m6 l12">
+      <div className="row">
+        <div key={portfolioData[0].name} className="col s7 m6 l6">
           <div className="card large hoverable portfolio-card" style={{ width: '20rem' }}>
             <div className="card-image">
               <img className="responsive-img" src={process.env.PUBLIC_URL + portfolioData[0].image} alt={portfolioData[0].name}></img>
               {/* <span className="card-title" style={{backgroundColor: "pink", opacity: 0.89, color: 'black', padding: 0}}>{portfolioData[0].name}</span> */}
             </div>
             <div className="card-content">
-            <b>{portfolioData[0].name}</b>
+              <b>{portfolioData[0].name}</b>
               <p>{portfolioData[0].description}</p>
             </div>
             <div className="card-action">
@@ -21,37 +21,53 @@ const portfolio = function () {
             </div>
           </div>
         </div>
-      
-
-    </div>
-    <div className="row">
-      <br/>
-   {portfolioData.map((project) => {
-     if (project !== portfolioData[0]) {
-    return (
-        <div key={project.name} className="col s7 m4 l4">
-          <div className="card hoverable portfolio-card" style={{ width: '20rem' }}>
+        <div key={portfolioData[1].name} className="col s7 m6 l6">
+          <div className="card large hoverable portfolio-card" >
             <div className="card-image">
-              <img className="responsive-img" src={process.env.PUBLIC_URL + project.image} alt={project.name}></img>
-              {/* <span className="card-title" style={{backgroundColor: "pink", opacity: 0.89, color: 'black', padding: 0}}>{project.name}</span> */}
+              <img className="responsive-img" src={process.env.PUBLIC_URL + portfolioData[1].image} alt={portfolioData[1].name}></img>
+              {/* <span className="card-title" style={{backgroundColor: "pink", opacity: 0.89, color: 'black', padding: 0}}>{portfolioData[0].name}</span> */}
             </div>
             <div className="card-content">
-              <b>{project.name}</b>
-              <p>{project.description}</p>
+              <b>{portfolioData[1].name}</b>
+              <p>{portfolioData[1].description}</p>
             </div>
             <div className="card-action">
-              {project.url && <a href={project.url} target="_blank" rel="noreferrer">Visit</a>}
-              <a href={project.repoUrl} target="_blank" rel="noreferrer">Github</a>
+              {portfolioData[1].url && <a href={portfolioData[1].url} target="_blank" rel="noreferrer">Visit</a>}
+              <a href={portfolioData[1].repoUrl} target="_blank" rel="noreferrer">Github</a>
             </div>
           </div>
         </div>
-    )} else {
-      return null
-    }
-    })}
+
+      </div>
+      <div className="row">
+        <br />
+        {portfolioData.map((project) => {
+          if (project.name !== "Sheltr" && project.name !== "Spiral Stairs Official") {
+            return (
+              <div key={project.name} className="col s7 m4 l6">
+                <div className="card hoverable portfolio-card" style={{ width: '20rem' }}>
+                  <div className="card-image">
+                    <img className="responsive-img" src={process.env.PUBLIC_URL + project.image} alt={project.name}></img>
+                    {/* <span className="card-title" style={{backgroundColor: "pink", opacity: 0.89, color: 'black', padding: 0}}>{project.name}</span> */}
+                  </div>
+                  <div className="card-content">
+                    <b>{project.name}</b>
+                    <p>{project.description}</p>
+                  </div>
+                  <div className="card-action">
+                    {project.url && <a href={project.url} target="_blank" rel="noreferrer">Visit</a>}
+                    <a href={project.repoUrl} target="_blank" rel="noreferrer">Github</a>
+                  </div>
+                </div>
+              </div>
+            )
+          } else {
+            return null
+          }
+        })}
+      </div>
     </div>
-    </div>
-    );
+  );
 };
 
-      export default portfolio;
+export default portfolio;
