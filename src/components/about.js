@@ -16,7 +16,7 @@ const about = ({ setActiveTab }) => {
             <div className="card-action">
               <a href="#"
                 onClick={() => clickHandler('portfolio', setActiveTab)}
-              >Portfolio</a>
+              >Coding</a>
               <br className="hide-on-med-and-up"></br>
               <a href="#"
                 onClick={() => clickHandler('resume', setActiveTab)}
