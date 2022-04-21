@@ -29,8 +29,7 @@ function navbar ({ activeTab, setActiveTab }) {
       
   
   <ul className="sidenav sidenav-close" id="mobile" styles={{marginLeft: '10px'}}>
-      <li id="about-mobile" onClick={()=> clickHandler('about', setActiveTab)}><a className="blue-text"><i className="material-icons left blue-text">person</i>About</a></li>
-      <li id="portfolio-mobile" onClick={()=> clickHandler('portfolio', setActiveTab)}><a className="blue-text"><i className="material-icons left blue-text">web</i>Portfolio</a></li>
+      <li id="portfolio-mobile" onClick={()=> clickHandler('portfolio', setActiveTab)}><a className="blue-text"><i className="material-icons left blue-text">web</i>Coding</a></li>
       <li id="resume-mobile" onClick={()=> clickHandler('resume', setActiveTab)}><a className="blue-text"><i className="material-icons left blue-text">subject</i>Resume</a></li>
       <li id="resume-mobile"><a className="blue-text"><i className="material-icons left blue-text" href="mailto: matlundin.dev@gmail.com">email</i>Email</a></li>
   </ul>
