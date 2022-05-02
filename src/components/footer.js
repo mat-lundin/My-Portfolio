@@ -15,8 +15,8 @@ const footer = () => {
                 <li><a className="grey-text text-lighten-3" href="https://www.linkedin.com/in/mathew-lundin/" target="_blank">LinkedIn</a></li> */}
                 <a className="btn btn-outline-light btn-floating m-1" href="https://github.com/mat-lundin" target="_blank" rel="noreferrer" role="button"><i className="fab fa-github" ></i></a>
                 <a className="btn btn-outline-light btn-floating m-1" href="https://www.linkedin.com/in/mathew-lundin/" target="_blank" rel="noreferrer" role="button"><i className="fab fa-linkedin-in"></i></a>
-                
               </ul>
+              <a class="waves-effect waves-light btn-small" href="https://github.com/mat-lundin/My-Portfolio"><i class="material-icons left">laptop</i>Source Code</a>
             </div>
             <div className="col l4 offset-l2 s12">
 

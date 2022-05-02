@@ -11,7 +11,8 @@ const about = ({ setActiveTab }) => {
               <span className="card-title">Mat Lundin</span>
             </div>
             <div className="card-content">
-              <p>After 10 years in the tech industry, doing implementations, code patches, bug fixes, application support, and a fair amount of SQL, I just graduated from the Coding Bootcamp at the University of Texas, Austin and I'm excited to code!</p>
+              <p>Full stack web development graduate with ten years of experience in the tech industry seeking
+an opportunity to work in a challenging role with a technology-driven organization.</p>
             </div>
             <div className="card-action">
               <a href="#"
