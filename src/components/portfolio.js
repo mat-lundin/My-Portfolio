@@ -42,7 +42,7 @@ const portfolio = function () {
       <div className="row">
         <br />
         {portfolioData.map((project) => {
-          if (project.name !== "Sheltr" && project.name !== "Spiral Stairs Official") {
+          if (project.name !== "Sheltr" && project.name !== "Spiral Stairs Official Website") {
             return (
               <div key={project.name} className="col s7 m4 l6">
                 <div className="card hoverable portfolio-card" style={{ width: '20rem' }}>
