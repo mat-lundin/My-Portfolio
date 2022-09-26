@@ -1,6 +1,8 @@
 # My Portfolio
+:small_red_triangle: This site now redirects immediately to my new portfolio, hosted at https://matlundin.herokuapp.com :small_red_triangle:
 
 ## Description
+
   This is an online portfolio site, built using React. Please visit to learn about my career history, see and visit some projects I’ve built or contributed to, and see my resume!
 
 ## Table of Contents
